@@ -1,4 +1,12 @@
-# How to write in Markdown, How to write Readme
+<div align="center">
+
+[![](https://komarev.com/ghpvc/?username=jeffersonfed&label=Profile%20Visits&color=blue&style=plastic)](#top)
+
+[![Sponsor](https://img.shields.io/badge/SPONSOR-30363D?style=plastic&logo=GitHub-Sponsors&logoColor=#white)](https://ko-fi.com/jeffersonfed)
+
+</div>
+
+# How to write in Markdown
 
 <h2>What is Markdown?</h2>
 <ol style="list-style-type: lower-latin;">
@@ -316,7 +324,7 @@ You can also use words, to fit your writing style more closely[^note].
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="tables">010. Tables</h2>
+<h2 id="tables">10. Tables</h2>
 
 ```markdown
 Colons can be used to align columns.
@@ -358,7 +366,7 @@ Markdown | Less | Pretty
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="inline-html">011. Inline HTML</h2>
+<h2 id="inline-html">11. Inline HTML</h2>
 
 ```html
 <dl>
@@ -382,7 +390,7 @@ Markdown | Less | Pretty
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="horizontal-rule">012. Horizontal Rule</h2>
+<h2 id="horizontal-rule">12. Horizontal Rule</h2>
 
 ```markdown
 Three or more...
@@ -418,7 +426,7 @@ Underscores
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="line-breaks">013. Line Breaks</h2>
+<h2 id="line-breaks">13. Line Breaks</h2>
 
 ```markdown
 Here's a line for us to start with.
@@ -441,7 +449,7 @@ This line is only separated by a single newline, so it's a separate line in the 
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="embed">014. Embed Videos</h2>
+<h2 id="embed">14. Embed Videos</h2>
 They can't be added directly but you can add an image with a link to the video like this:
 
 ```markdown
@@ -462,7 +470,7 @@ Playing around with markdown and html elements Reference
 </h2>
 
 
-<h2 id="drop-down">015. Drop down using Details Tag</h2>
+<h2 id="drop-down">01. Drop down using Details Tag</h2>
 
 <details>
 <summary>
@@ -552,6 +560,10 @@ Playing around with markdown and html elements Reference
 
 </details>
 
+<h2 align = "center";>
+	
+![<hr />](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=8)<br />
+</h2>
 
 
 
