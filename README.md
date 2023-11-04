@@ -25,18 +25,19 @@
     <li><a href="#lists">Lists</a></li>
     <li><a href="#nested-lists">Nested Lists</a></li>
     <li><a href="#links">Links</a></li>
-    <li><a href="#relative-links">Relative Links and Images</a></li>
-    <li><a href="#code-and-syntax">Code and Syntax Highlighting</a></li>
-    <li><a href="#quoting-text">Blockquotes</a></li>
+    <li><a href="#relative-links-and-images">Relative Links and Images</a></li>
+    <li><a href="#code-and-syntax-highlighting">Code and Syntax Highlighting</a></li>
+    <li><a href="#blockquotes">Blockquotes</a></li>
     <li><a href="#footnotes">Footnotes</a></li>
+    <li><a href="#tables">Tables</a></li>
     <li><a href="#inline-html">Inline HTML</a></li>
     <li><a href="#horizontal-rule">Horizontal Rule</a></li>
     <li><a href="#line-breaks">Line Breaks</a></li>
-    <li><a href="#embed">Embed Videos</a></li>
+    <li><a href="#embed-videos">Embed Videos</a></li>
 </ol>
     <h2>Playing around with markdown and html elements Reference</h2>
 <ol style="list-style-type: decimal-leading-zero;">
-    <li><a href="#drop-down">Drop Down using Details Tag</a></li>
+    <li><a href="#drop-down-using-details-tag">Drop Down using Details Tag</a></li>
     <li><a href="#custom-badge">Custom Badge</a></li>
 
 </ol>
@@ -65,7 +66,7 @@
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="text-style">Text Style</h2>
+<h2>Text Style</h2>
 
 ```markdown
     Italics → _underscore_ or *Asterisk*
@@ -87,7 +88,7 @@ Superscript → <sup>Superscript</sup>
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="lists">Lists</h2>
+<h2>Lists</h2>
 
 Unordered List with  `-` , `*`, or `+`.
 
@@ -116,7 +117,7 @@ Ordered List with Numbers
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="nested-lists">Nested Lists</h2>
+<h2>Nested Lists</h2>
 
 You can create a nested list by indenting one or more list items below another item.
 
@@ -143,7 +144,7 @@ If you want to add a nested list under list number, for example, `200. List`, yo
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="links">Links</h2>
+<h2>Links</h2>
 
 ```markdown
 [I'm an inline-style link](https://www.google.com)
@@ -220,7 +221,7 @@ EX:
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="code-and-syntax">Code and Syntax Highlighting</h2>
+<h2>Code and Syntax Highlighting</h2>
 Code blocks are part of the Markdown, but syntax highlighting isn't.
 
 ```markdown
@@ -269,7 +270,7 @@ But let's throw in a <b>tag</b>.
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="quoting-text">Blockquotes</h2>
+<h2>Blockquotes</h2>
 
 You can quote text with `>`
 
@@ -289,7 +290,7 @@ You can quote text with `>`
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="footnotes">Footnotes</h2>
+<h2>Footnotes</h2>
 
 ```markdown
 Here is a simple footnote[^1].
@@ -324,7 +325,7 @@ You can also use words, to fit your writing style more closely[^note].
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="tables">Tables</h2>
+<h2>Tables</h2>
 
 ```markdown
 Colons can be used to align columns.
