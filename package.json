@@ -1,0 +1,12 @@
+{
+  "name": "github-readme",
+  "version": "1.0.0",
+  "description": "Github readme usage, how to write markdown",
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ritch Johan jefferson",
+  "license": "ISC"
+}
