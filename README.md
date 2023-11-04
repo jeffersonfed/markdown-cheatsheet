@@ -37,6 +37,7 @@
     <h2>Playing around with markdown and html elements Reference</h2>
 <ol style="list-style-type: decimal-leading-zero;">
     <li><a href="#drop-down">Drop Down using Details Tag</a></li>
+    <li><a href="#custom-badge">Custom Badge</a></li>
 
 </ol>
 
@@ -563,6 +564,15 @@ Playing around with markdown and html elements Reference
 	
 ![<hr />](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=8)<br />
 </h2>
+
+<h2 id="custom-badge">02. Custom Badge</h2>
+
+```markdown
+[![Custom Badge](https://img.shields.io/badge/Custom%20Badge-dfe6e9?&logoColor=dfe6e9)](https://github.com/jeffersonfed)
+```
+
+
+[![Custom Badge](https://img.shields.io/badge/Custom%20Badge-dfe6e9?&logoColor=dfe6e9)](https://github.com/jeffersonfed)
 
 
 
