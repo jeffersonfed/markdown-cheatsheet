@@ -42,7 +42,7 @@
 </ol>
 
 
-<h2 id="headings">01. Headings</h2>
+<h2 id="headings">Headings</h2>
 <p>You can create headings by using the "#" symbol, with one "#" for the highest level heading and up to six "#" symbols for lower-level headings.</p>
 
 ```markdown
@@ -65,7 +65,7 @@
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="text-style">02. Text Style</h2>
+<h2 id="text-style">Text Style</h2>
 
 ```markdown
     Italics → _underscore_ or *Asterisk*
@@ -87,7 +87,7 @@ Superscript → <sup>Superscript</sup>
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="lists">03. Lists</h2>
+<h2 id="lists">Lists</h2>
 
 Unordered List with  `-` , `*`, or `+`.
 
@@ -116,7 +116,7 @@ Ordered List with Numbers
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="nested-lists">04. Nested Lists</h2>
+<h2 id="nested-lists">Nested Lists</h2>
 
 You can create a nested list by indenting one or more list items below another item.
 
@@ -143,7 +143,7 @@ If you want to add a nested list under list number, for example, `200. List`, yo
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="links">05. Links</h2>
+<h2 id="links">Links</h2>
 
 ```markdown
 [I'm an inline-style link](https://www.google.com)
@@ -200,7 +200,7 @@ Some text to show that the reference links can follow later.
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="relative-links">06. Relative Links and Images</h2>
+<h2 id="relative-links">Relative Links and Images</h2>
 You can define relative links and image paths in your rendered files to help readers navigate to other files in your repository.
 
 Inline-style: 
@@ -220,7 +220,7 @@ EX:
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="code-and-syntax">07. Code and Syntax Highlighting</h2>
+<h2 id="code-and-syntax">Code and Syntax Highlighting</h2>
 Code blocks are part of the Markdown, but syntax highlighting isn't.
 
 ```markdown
@@ -269,7 +269,7 @@ But let's throw in a <b>tag</b>.
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="quoting-text">08. Blockquotes</h2>
+<h2 id="quoting-text">Blockquotes</h2>
 
 You can quote text with `>`
 
@@ -289,7 +289,7 @@ You can quote text with `>`
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="footnotes">09. Footnotes</h2>
+<h2 id="footnotes">Footnotes</h2>
 
 ```markdown
 Here is a simple footnote[^1].
@@ -324,7 +324,7 @@ You can also use words, to fit your writing style more closely[^note].
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="tables">10. Tables</h2>
+<h2 id="tables">Tables</h2>
 
 ```markdown
 Colons can be used to align columns.
@@ -366,7 +366,7 @@ Markdown | Less | Pretty
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="inline-html">11. Inline HTML</h2>
+<h2 id="inline-html">Inline HTML</h2>
 
 ```html
 <dl>
@@ -390,7 +390,7 @@ Markdown | Less | Pretty
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="horizontal-rule">12. Horizontal Rule</h2>
+<h2 id="horizontal-rule">Horizontal Rule</h2>
 
 ```markdown
 Three or more...
@@ -426,7 +426,7 @@ Underscores
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="line-breaks">13. Line Breaks</h2>
+<h2 id="line-breaks">Line Breaks</h2>
 
 ```markdown
 Here's a line for us to start with.
@@ -449,7 +449,7 @@ This line is only separated by a single newline, so it's a separate line in the 
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="embed">14. Embed Videos</h2>
+<h2 id="embed">Embed Videos</h2>
 They can't be added directly but you can add an image with a link to the video like this:
 
 ```markdown
@@ -470,7 +470,7 @@ Playing around with markdown and html elements Reference
 </h2>
 
 
-<h2 id="drop-down">01. Drop down using Details Tag</h2>
+<h2 id="drop-down">Drop down using Details Tag</h2>
 
 <details>
 <summary>
@@ -565,7 +565,7 @@ Playing around with markdown and html elements Reference
 ![<hr />](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=8)<br />
 </h2>
 
-<h2 id="custom-badge">02. Custom Badge</h2>
+<h2 id="custom-badge">Custom Badge</h2>
 
 ```markdown
 [![Custom Badge](https://img.shields.io/badge/Custom%20Badge-dfe6e9?&logoColor=dfe6e9)](https://github.com/jeffersonfed)
