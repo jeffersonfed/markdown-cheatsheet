@@ -21,7 +21,7 @@
     <li><a href="#relative-links">Relative Links and Images</a></li>
     <li><a href="#code-and-syntax">Code and Syntax Highlighting</a></li>
     <li><a href="#quoting-text">Quoting Text</a></li>
-    <li><a href="#color-model">Color model</a></li>
+    <li><a href="#footnotes">Footnotes</a></li>
 </ol>
 
 
@@ -268,13 +268,35 @@ You can quote text with `>`
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="color-model">09. Color Model</h2>
+<h2 id="footnotes">09. Footnotes</h2>
 
 ```markdown
-The background color is `#00000` and the text color is `#fffff`
-```
+Here is a simple footnote[^1].
 
-The background color is `#00000` and the text color is `#fffff`
+A footnote can also have multiple lines[^2].  
+
+You can also use words, to fit your writing style more closely[^note].
+
+[^1]: My reference.
+[^2]: Every new line should be prefixed with 2 spaces.  
+  This allows you to have a footnote with multiple lines.
+[^note]:
+    Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
+    This footnote also has been made with a different syntax using 4 spaces for new lines.
+```
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].  
+
+You can also use words, to fit your writing style more closely[^note].
+
+[^1]: My reference.
+[^2]: Every new line should be prefixed with 2 spaces.  
+  This allows you to have a footnote with multiple lines.
+[^note]:
+    Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
+    This footnote also has been made with a different syntax using 4 spaces for new lines.
+
 
 <!-- 
 ====== Line ====== 
