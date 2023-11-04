@@ -540,15 +540,15 @@ Playing around with markdown and html elements Reference
 
 <details>
 <summary>
-<i>What challenges do I think about?</i>
+<i>Press me</i>
 </summary>
 <br />
 
-> Press me
+> Yey, you pressed it
 
-`ex` Yes, you pressed it
+`ex` Ex 1, Ex 2, Ex 3
 
-- markdown language
+- html details tag
 
 </details>
 
