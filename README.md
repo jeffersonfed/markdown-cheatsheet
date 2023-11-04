@@ -20,7 +20,7 @@
     <li><a href="#links">Links</a></li>
     <li><a href="#relative-links">Relative Links and Images</a></li>
     <li><a href="#code-and-syntax">Code and Syntax Highlighting</a></li>
-    <li><a href="#quoting-text">Quoting Text</a></li>
+    <li><a href="#quoting-text">Blockquotes</a></li>
     <li><a href="#footnotes">Footnotes</a></li>
 </ol>
 
@@ -254,14 +254,20 @@ But let's throw in a <b>tag</b>.
 ![<hr />][hr-style]<br />
 </h2>
 
-<h2 id="quoting-text">08. Quoting Text</h2>
+<h2 id="quoting-text">08. Blockquotes</h2>
 
 You can quote text with `>`
 
 ```markdown
 > This is quote text
+
+> First Line
+> Second Line
 ```
 > This is quote text
+
+> First Line
+> Second Line
 
 <h2 align = "center";>
 	
@@ -296,6 +302,49 @@ You can also use words, to fit your writing style more closely[^note].
 [^note]:
     Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
     This footnote also has been made with a different syntax using 4 spaces for new lines.
+
+
+<h2 align = "center";>
+	
+![<hr />][hr-style]<br />
+</h2>
+
+<h2 id="tables">010. Tables</h2>
+
+```markdown
+Colons can be used to align columns.
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don't need to make the 
+raw Markdown line up prettily. You can also use inline Markdown.
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+```
+Colons can be used to align columns.
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don't need to make the 
+raw Markdown line up prettily. You can also use inline Markdown.
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
 
 
 <!-- 
