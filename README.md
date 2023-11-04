@@ -589,25 +589,6 @@ Playing around with markdown and html elements Reference
 <!-- 
 ====== Tech Stack ====== 
 -->
-<!-- Wakatime -->
-[wakatime-badge]: https://img.shields.io/badge/WakaTime-000000?style=for-the-badge&logo=WakaTime&logoColor=white
-[wakatime-link]: https://wakatime.com
-
-<!-- Github Action -->
-[githubaction-badge]: https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white
-[githubaction-link]: https://github.com/features/actions
-
-<!-- MYSQL -->
-[mysql-badge]: https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white
-[mysql-link]: https://www.mysql.com
-
-<!-- After Effects -->
-[aftereffects-badge]: https://img.shields.io/badge/After%20Effects-31A8FF?style=for-the-badge&logo=Adobe%20after%20effects&logoColor=black
-[aftereffects-link]: https://www.adobe.com/products/aftereffects/campaign/pricing.html?sdid=L3XTTPNV&mv=search&mv2=paidsearch&ef_id=Cj0KCQjwy4KqBhD0ARIsAEbCt6gopXRRt3qDcExi234ozoP4GIX_5K2nlahEFBOD9y5sYYCbj7qnHzAaAkOBEALw_wcB%3AG%3As&s_kwcid=AL%213085%213%21636707352609%21e%21%21g%21%21after+effects%21703952805%2138400810418&gclid=Cj0KCQjwy4KqBhD0ARIsAEbCt6gopXRRt3qDcExi234ozoP4GIX_5K2nlahEFBOD9y5sYYCbj7qnHzAaAkOBEALw_wcB
-
-<!-- Canva -->
-[canva-badge]: https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white
-[canva-link]: https://www.canva.com
 
 <!-- AlpineJS -->
 [alpinejs-badge]: https://img.shields.io/badge/Alpine%20JS-black?style=for-the-badge&logo=alpinedotjs&logoColor=8BC0D0
@@ -692,62 +673,6 @@ Playing around with markdown and html elements Reference
 <!-- Vercel -->
 [vercel-badge]: https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white
 [vercel-link]: https://vercel.com/dashboard
-
-<!-- Eclipse -->
-[eclipse-badge]: https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=whit
-[eclipse-link]: https://eclipseide.org
-
-<!-- VS Code --> 
-[vscode-badge]: https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white
-[vscode-link]: https://code.visualstudio.com
-
-<!-- Eslint -->
-[eslint-badge]: https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white
-[eslint-link]: https://eslint.org
-
-<!-- Prettier -->
-[prettier-badge]: https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E
-[prettier-link]: https://prettier.io
-
-<!-- C -->
-[c-badge]: https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white
-[c-link]: https://www.w3schools.com/c/c_intro.php
-
-<!-- CSS3 -->
-[css-badge]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
-[css-link]: https://www.w3schools.com/css/css_intro.asp
-
-<!-- HTML5 -->
-[html-badge]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
-[html-link]: https://www.w3schools.com/html/
-
-<!-- Java --> 
-[java-badge]: https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white
-[java-link]: https://www.java.com/en/
-
-<!-- Javascript -->
-[javascript-badge]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
-[javascript-link]: https://www.javascript.com
-
-<!-- LaTeX -->
-[latex-badge]: https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white
-[latex-link]: https://www.latex-project.org
-
-<!-- Markdown -->
-[markdown-badge]: https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white
-[markdown-link]: https://learnmarkdown.com
-
-<!-- Shell Script-->
-[shell-badge]: https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white
-[shell-link]: https://www.shellscript.sh
-
-<!-- Solidity -->
-[solidity-badge]: https://img.shields.io/badge/Solidity-black?style=for-the-badge&logo=solidity&logoColor=e6e6e6
-[solidity-link]: https://soliditylang.org
-
-<!-- Typescript -->
-[typescript-badge]: https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white
-[typescript-link]: https://www.typescriptlang.org
 
 <!-- Git -->
 [git-badge]: https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white
