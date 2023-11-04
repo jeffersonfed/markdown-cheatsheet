@@ -19,6 +19,9 @@
     <li><a href="#nested-lists">Nested Lists</a></li>
     <li><a href="#links">Links</a></li>
     <li><a href="#relative-links">Relative Links and Images</a></li>
+    <li><a href="#code-and-syntax">Code and Syntax Highlighting</a></li>
+    <li><a href="#quoting-text">Quoting Text</a></li>
+    <li><a href="#color-model">Color model</a></li>
 </ol>
 
 
@@ -183,6 +186,7 @@ Some text to show that the reference links can follow later.
 </h2>
 
 <h2 id="relative-links">06. Relative Links and Images</h2>
+You can define relative links and image paths in your rendered files to help readers navigate to other files in your repository.
 
 Inline-style: 
 
@@ -195,6 +199,82 @@ EX:
 [Example 1](package.json)
 
 ![Example 2 Image](assets/pikachu.png)
+
+<h2 align = "center";>
+	
+![<hr />][hr-style]<br />
+</h2>
+
+<h2 id="code-and-syntax">07. Code and Syntax Highlighting</h2>
+Code blocks are part of the Markdown, but syntax highlighting isn't.
+
+```markdown
+Inline `code` has `back-ticks around` it.
+```
+Inline `code` has `back-ticks around` it. 
+
+<hr>
+Blocks of code are either fenced by lines with three back-ticks ```, or are indented with four spaces. I recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.
+
+<pre>
+```js
+var x = "jeffersonfed";
+alert(x);
+```
+ 
+```python
+x = "jeffersonfed"
+print x
+```
+ 
+```
+No language indicated, so no syntax highlighting. 
+But let's throw in a <b>tag</b>.
+```
+</pre>
+
+```js
+var x = "jeffersonfed";
+alert(x);
+```
+ 
+```python
+x = "jeffersonfed"
+print x
+```
+ 
+```
+No language indicated, so no syntax highlighting. 
+But let's throw in a <b>tag</b>.
+```
+
+
+<h2 align = "center";>
+	
+![<hr />][hr-style]<br />
+</h2>
+
+<h2 id="quoting-text">08. Quoting Text</h2>
+
+You can quote text with `>`
+
+```markdown
+> This is quote text
+```
+> This is quote text
+
+<h2 align = "center";>
+	
+![<hr />][hr-style]<br />
+</h2>
+
+<h2 id="color-model">09. Color Model</h2>
+
+```markdown
+The background color is `#00000` and the text color is `#fffff`
+```
+
+The background color is `#00000` and the text color is `#fffff`
 
 <!-- 
 ====== Line ====== 
