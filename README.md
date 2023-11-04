@@ -22,9 +22,16 @@
     <li><a href="#code-and-syntax">Code and Syntax Highlighting</a></li>
     <li><a href="#quoting-text">Blockquotes</a></li>
     <li><a href="#footnotes">Footnotes</a></li>
+    <li><a href="#inline-html">Inline HTML</a></li>
+    <li><a href="#horizontal-rule">Horizontal Rule</a></li>
+    <li><a href="#line-breaks">Line Breaks</a></li>
+    <li><a href="#embed">Embed Videos</a></li>
 </ol>
+    <h2>Playing around with markdown and html elements Reference</h2>
+<ol style="list-style-type: decimal-leading-zero;">
+    <li><a href="#drop-down">Drop Down using Details Tag</a></li>
 
-
+</ol>
 
 
 <h2 id="headings">01. Headings</h2>
@@ -346,9 +353,384 @@ Markdown | Less | Pretty
 *Still* | `renders` | **nicely**
 1 | 2 | 3
 
+<h2 align = "center";>
+	
+![<hr />][hr-style]<br />
+</h2>
+
+<h2 id="inline-html">011. Inline HTML</h2>
+
+```html
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+```
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+
+<h2 align = "center";>
+	
+![<hr />][hr-style]<br />
+</h2>
+
+<h2 id="horizontal-rule">012. Horizontal Rule</h2>
+
+```markdown
+Three or more...
+
+---
+
+Hyphens
+
+***
+
+Asterisks
+
+___
+
+Underscores
+```
+Three or more...
+
+---
+
+Hyphens
+
+***
+
+Asterisks
+
+___
+
+Underscores
+
+<h2 align = "center";>
+	
+![<hr />][hr-style]<br />
+</h2>
+
+<h2 id="line-breaks">013. Line Breaks</h2>
+
+```markdown
+Here's a line for us to start with.
+
+This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
+
+This line is also a separate paragraph, but...
+This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
+```
+
+Here's a line for us to start with.
+
+This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
+
+This line is also a separate paragraph, but...
+This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
+
+<h2 align = "center";>
+	
+![<hr />][hr-style]<br />
+</h2>
+
+<h2 id="embed">014. Embed Videos</h2>
+They can't be added directly but you can add an image with a link to the video like this:
+
+```markdown
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+```
+or in markdown
+```markdown
+[![alt-text](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+```
+
+<h2 align = "center";>
+	
+![<hr />](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=8)<br />
+
+Playing around with markdown and html elements Reference
+</h2>
+
+
+<h2 id="drop-down">015. Drop down using Details Tag</h2>
+
+<details>
+<summary>
+<b>Frameworks, Platforms and Libraries</b>
+</summary>
+<br />
+
+| | | | | |
+| - | - | - | - | - |
+| Alpine.js     | [ ![Alpine JS][alpinejs-badge] ][alpinejs-link] | |  Astro  | [ ![Astro][astro-badge] ][astro-link] 
+| Bootstrap | [ ![Bootstrap][bootstrap-badge] ][bootstrap-link] | | Font Awesome     | [ ![Font Awesome][fontawesome-badge] ][fontawesome-link] |
+| Github Pages     | [ ![Github Pages][githubpages-badge] ][githubpages-link] | | Jekyll | [ ![Jekyll][jekyll-badge] ][jekyll-link] |
+| JQuery | [ ![JQuery][jquery-badge] ][jquery-link] | | Next.js | [ ![NextJS][nextjs-badge] ][nextjs-link] |
+| Node.js | [ ![NodeJS][nodejs-badge] ][nodejs-link] | | NPM | [ ![NPM][npm-badge] ][npm-link] |
+| PNPM | [ ![PNPM][pnpm-badge] ][pnpm-link] | | React.js | [ ![React][react-badge] ][react-link] |
+| React Router | [ ![React Router][reactrouter-badge] ][reactrouter-link] | | Redux | [ ![Redux][redux-badge] ][redux-link] |
+| SASS | [ ![SASS][sass-badge] ][sass-link] | | Tailwind CSS | [ ![Tailwind][tailwind-badge] ][tailwind-link] |
+| Vite | [ ![Vite][vite-badge] ][vite-link] | | Vue.js | [ ![Vue][vue-badge] ][vue-link] |
+| Yarn | [ ![Yarn][yarn-badge] ][yarn-link] |
+</details>
+
+<details>
+<summary>
+<b>Example 2</b>
+</summary>
+
+
+<table>
+<tbody>
+
+<tr>
+  <td>
+  <details>
+  <summary>
+  <code>Hosting/Saas</code>
+  </summary>
+  
+  ```
+  Netlify              :: Desc
+  Vercel               :: Desc
+  ```
+
+  </details>
+  </td>
+  <td>
+
+  [ ![Netlify][netlify-badge] ][netlify-link]
+  [ ![Vercel][vercel-badge] ][vercel-link]
+  </td>
+</tr>
+<tr>
+  <td>
+  <details>
+  <summary>
+  <code>Version Control</code>
+  </summary>
+  
+  ```
+  Git               :: Desc
+  Github            :: Desc
+  ```
+
+  </details>
+  </td>
+  <td>
+
+  [ ![Git][git-badge] ][git-link]
+  [ ![Github][github-badge] ][github-link]
+
+  </td>
+</tr>
+</tbody>
+</table>
+</details>
+
+<details>
+<summary>
+<i>What challenges do I think about?</i>
+</summary>
+<br />
+
+> Press me
+
+`ex` Yes, you pressed it
+
+- markdown language
+
+</details>
+
+
+
 
 <!-- 
 ====== Line ====== 
 -->
 
  [hr-style]: https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1.5
+
+
+
+ <!-- ------------------------------------ -->
+<!-- 
+====== Tech Stack ====== 
+-->
+<!-- Wakatime -->
+[wakatime-badge]: https://img.shields.io/badge/WakaTime-000000?style=for-the-badge&logo=WakaTime&logoColor=white
+[wakatime-link]: https://wakatime.com
+
+<!-- Github Action -->
+[githubaction-badge]: https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white
+[githubaction-link]: https://github.com/features/actions
+
+<!-- MYSQL -->
+[mysql-badge]: https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white
+[mysql-link]: https://www.mysql.com
+
+<!-- After Effects -->
+[aftereffects-badge]: https://img.shields.io/badge/After%20Effects-31A8FF?style=for-the-badge&logo=Adobe%20after%20effects&logoColor=black
+[aftereffects-link]: https://www.adobe.com/products/aftereffects/campaign/pricing.html?sdid=L3XTTPNV&mv=search&mv2=paidsearch&ef_id=Cj0KCQjwy4KqBhD0ARIsAEbCt6gopXRRt3qDcExi234ozoP4GIX_5K2nlahEFBOD9y5sYYCbj7qnHzAaAkOBEALw_wcB%3AG%3As&s_kwcid=AL%213085%213%21636707352609%21e%21%21g%21%21after+effects%21703952805%2138400810418&gclid=Cj0KCQjwy4KqBhD0ARIsAEbCt6gopXRRt3qDcExi234ozoP4GIX_5K2nlahEFBOD9y5sYYCbj7qnHzAaAkOBEALw_wcB
+
+<!-- Canva -->
+[canva-badge]: https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white
+[canva-link]: https://www.canva.com
+
+<!-- AlpineJS -->
+[alpinejs-badge]: https://img.shields.io/badge/Alpine%20JS-black?style=for-the-badge&logo=alpinedotjs&logoColor=8BC0D0
+[alpinejs-link]: https://alpinejs.dev
+
+<!-- Astro -->
+[astro-badge]: https://img.shields.io/badge/Astro-0C1222?style=for-the-badge&logo=astro&logoColor=FDFDFE
+[astro-link]: https://astro.build
+
+<!-- Bootstrap -->
+[bootstrap-badge]: https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white
+[bootstrap-link]: https://getbootstrap.com
+
+<!-- Font Awesome -->
+[fontawesome-badge]: https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white
+[fontawesome-link]: https://fontawesome.com
+
+<!-- Github Pages -->
+[githubpages-badge]: https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=GitHub%20Pages&logoColor=white
+[githubpages-link]: https://pages.github.com
+
+<!-- Jekyll -->
+[jekyll-badge]: https://img.shields.io/badge/Jekyll-CC0000?style=for-the-badge&logo=Jekyll&logoColor=white
+[jekyll-link]: https://jekyllrb.com
+
+<!-- Jquery -->
+[jquery-badge]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[jquery-link]: https://jquery.com
+
+<!-- NextJS -->
+[nextjs-badge]: https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[nextjs-link]: https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+
+<!-- NodeJS -->
+[nodejs-badge]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
+[nodejs-link]: https://nodejs.org/en
+
+<!-- NPM -->
+[npm-badge]: https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white
+[npm-link]: https://www.npmjs.com
+
+<!-- PNPM -->
+[pnpm-badge]: https://img.shields.io/badge/pnpm-yellow?style=for-the-badge&logo=pnpm&logoColor=white
+[pnpm-link]: https://pnpm.io
+
+<!-- React -->
+[react-badge]: https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
+[react-link]: https://react.dev
+
+<!-- React Router -->
+[reactrouter-badge]: https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white
+[reactrouter-link]: https://reactrouter.com/en/main
+
+<!-- Redux -->
+[redux-badge]: https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white
+[redux-link]: https://redux.js.org
+
+<!-- SASS -->
+[sass-badge]: https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white
+[sass-link]: https://sass-lang.com
+
+<!-- Tailwind CSS -->
+[tailwind-badge]: https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
+[tailwind-link]: https://tailwindcss.com
+
+<!-- Vite -->
+[vite-badge]: https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E
+[vite-link]: https://vitejs.dev
+
+<!-- Vue JS -->
+[vue-badge]: https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D
+[vue-link]: https://vuejs.org
+
+<!-- Yarn -->
+[yarn-badge]: https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white
+[yarn-link]: https://yarnpkg.com
+
+<!-- Netlify -->
+[netlify-badge]: https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7
+[netlify-link]: https://www.netlify.com
+
+<!-- Vercel -->
+[vercel-badge]: https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white
+[vercel-link]: https://vercel.com/dashboard
+
+<!-- Eclipse -->
+[eclipse-badge]: https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=whit
+[eclipse-link]: https://eclipseide.org
+
+<!-- VS Code --> 
+[vscode-badge]: https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white
+[vscode-link]: https://code.visualstudio.com
+
+<!-- Eslint -->
+[eslint-badge]: https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white
+[eslint-link]: https://eslint.org
+
+<!-- Prettier -->
+[prettier-badge]: https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E
+[prettier-link]: https://prettier.io
+
+<!-- C -->
+[c-badge]: https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white
+[c-link]: https://www.w3schools.com/c/c_intro.php
+
+<!-- CSS3 -->
+[css-badge]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
+[css-link]: https://www.w3schools.com/css/css_intro.asp
+
+<!-- HTML5 -->
+[html-badge]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
+[html-link]: https://www.w3schools.com/html/
+
+<!-- Java --> 
+[java-badge]: https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white
+[java-link]: https://www.java.com/en/
+
+<!-- Javascript -->
+[javascript-badge]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
+[javascript-link]: https://www.javascript.com
+
+<!-- LaTeX -->
+[latex-badge]: https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white
+[latex-link]: https://www.latex-project.org
+
+<!-- Markdown -->
+[markdown-badge]: https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white
+[markdown-link]: https://learnmarkdown.com
+
+<!-- Shell Script-->
+[shell-badge]: https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white
+[shell-link]: https://www.shellscript.sh
+
+<!-- Solidity -->
+[solidity-badge]: https://img.shields.io/badge/Solidity-black?style=for-the-badge&logo=solidity&logoColor=e6e6e6
+[solidity-link]: https://soliditylang.org
+
+<!-- Typescript -->
+[typescript-badge]: https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white
+[typescript-link]: https://www.typescriptlang.org
+
+<!-- Git -->
+[git-badge]: https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white
+[git-link]: https://git-scm.com
+
+<!-- Github -->
+[github-badge]: https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white
+[github-link]: https://github.com
