@@ -585,7 +585,32 @@ How to create it?
 
 ```
 
-- For the Color Model, you can type simple text, such as Blue, White, Red, etc., but if you want a precise color, you can add the hex color.
+
+- To add a space, type `%20` or `_` and add `?` first, then `&` for every style you want to insert. 
+
+
+| URL Input     | Badge Output  | 
+| ------------- |:-------------:|
+| Underscore `_` or `%20` | Space` `| 
+| Double underscore `__` | Underscore `_` |   
+| Double dash `--`|Dash `-` | 
+
+
+Message and color only, separated by a dash `-`, for example:
+```markdown
+![alt-text](https://img.shields.io/badge/White1-fff)
+![alt-text](https://img.shields.io/badge/White_Color2-fff)
+![alt-text](https://img.shields.io/badge/White%20Color3-fff)
+![alt-text](https://img.shields.io/badge/White__Color4-fff)
+![alt-text](https://img.shields.io/badge/White--Color5-fff)
+```
+![alt-text](https://img.shields.io/badge/White1-fff)
+![alt-text](https://img.shields.io/badge/White_Color2-fff)
+![alt-text](https://img.shields.io/badge/White%20Color3-fff)
+![alt-text](https://img.shields.io/badge/White__Color4-fff)
+![alt-text](https://img.shields.io/badge/White--Color5-fff)
+
+- For the Color Model, you can type simple text, such as Blue, White, Red, etc., but if you want a precise color, you can also add the Hex, rgb, rgba, hsl, hsla and css color.
 
 ```markdown
 ![alt-text](https://img.shields.io/badge/Red-red)
@@ -599,62 +624,84 @@ How to create it?
 
 ![alt-text](https://img.shields.io/badge/White-fff)
 ![alt-text](https://img.shields.io/badge/Black-000)
+
+- Label, message and color separated by a dash `-`. For example:
+
+```markdown
+![alt-text](https://img.shields.io/badge/Example_Text-Red_white-red)
+```
+![alt-text](https://img.shields.io/badge/Example_Text-Red_Color-red)
 
 <hr>
 
-- To add a space, type `%20` and add `?` first, then `&` for every style you want to insert. For more styles, just type `&` for each style you want to include, make sure you already put the `?`, for example: 
+- Add `?` first, then style text, if you want to put another style just put `&`, for example:
+
 
 ```markdown
 - style=flat 
-![alt-text](https://img.shields.io/badge/example%201%20no%20link-dfe6e9?&logocolor=fffff&style=flat)
-[![alt-text](https://img.shields.io/badge/example%201%20with%20link-dfe6e9?&logocolor=fffff&style=flat)](https://shields.io)
+![alt-text](https://img.shields.io/badge/example%201%20no%20link-dfe6e9?style=flat)
+[![alt-text](https://img.shields.io/badge/example%201%20with%20link-dfe6e9?style=flat)](https://shields.io)
 
 - style=flat-square
-![alt-text](https://img.shields.io/badge/example%202%20no%20link-dfe6e9?&logocolor=fffff&style=flat-square)
-[![alt-text](https://img.shields.io/badge/example%202%20with%20link-dfe6e9?&logocolor=fffff&style=flat-square)](https://shields.io)
+![alt-text](https://img.shields.io/badge/example%202%20no%20link-dfe6e9?style=flat-square)
+[![alt-text](https://img.shields.io/badge/example%202%20with%20link-dfe6e9?style=flat-square)](https://shields.io)
 
 - style=plastic
-![alt-text](https://img.shields.io/badge/example%203%20no%20link-dfe6e9?&logocolor=fffff&style=plastic)
-[![alt-text](https://img.shields.io/badge/example%203%20with%20link-dfe6e9?&logocolor=fffff&style=plastic)](https://shields.io)
+![alt-text](https://img.shields.io/badge/example%203%20no%20link-dfe6e9?style=plastic)
+[![alt-text](https://img.shields.io/badge/example%203%20with%20link-dfe6e9?style=plastic)](https://shields.io)
 
 - style=for-the-badge
-![alt-text](https://img.shields.io/badge/example%204%20no%20link-dfe6e9?&logocolor=fffff&style=for-the-badge)
-[![alt-text](https://img.shields.io/badge/example%204%20with%20link-dfe6e9?&logocolor=fffff&style=for-the-badge)](https://shields.io)
+![alt-text](https://img.shields.io/badge/example%204%20no%20link-dfe6e9?style=for-the-badge)
+[![alt-text](https://img.shields.io/badge/example%204%20with%20link-dfe6e9?style=for-the-badge)](https://shields.io)
 
 - style=social
-![alt-text](https://img.shields.io/badge/example%205%20no%20link-dfe6e9?&logocolor=fffff&style=social)
-[![alt-text](https://img.shields.io/badge/example%205%20with%20link-dfe6e9?&logocolor=fffff&style=social)](https://shields.io)
+![alt-text](https://img.shields.io/badge/example%205%20no%20link-dfe6e9?style=social)
+[![alt-text](https://img.shields.io/badge/example%205%20with%20link-dfe6e9?style=social)](https://shields.io)
 ```
 - style=flat 
 
-![alt-text](https://img.shields.io/badge/example%201%20no%20link-dfe6e9?&logocolor=fffff&style=flat)
-[![alt-text](https://img.shields.io/badge/example%201%20with%20link-dfe6e9?&logocolor=fffff&style=flat)](https://shields.io)
+![alt-text](https://img.shields.io/badge/example%201%20no%20link-dfe6e9?style=flat)
+[![alt-text](https://img.shields.io/badge/example%201%20with%20link-dfe6e9?style=flat)](https://shields.io)
 
 - style=flat-square
 
-![alt-text](https://img.shields.io/badge/example%202%20no%20link-dfe6e9?&logocolor=fffff&style=flat-square)
-[![alt-text](https://img.shields.io/badge/example%202%20with%20link-dfe6e9?&logocolor=fffff&style=flat-square)](https://shields.io)
+![alt-text](https://img.shields.io/badge/example%202%20no%20link-dfe6e9?style=flat-square)
+[![alt-text](https://img.shields.io/badge/example%202%20with%20link-dfe6e9?style=flat-square)](https://shields.io)
 
 - style=plastic
 
-![alt-text](https://img.shields.io/badge/example%203%20no%20link-dfe6e9?&logocolor=fffff&style=plastic)
-[![alt-text](https://img.shields.io/badge/example%203%20with%20link-dfe6e9?&logocolor=fffff&style=plastic)](https://shields.io)
+![alt-text](https://img.shields.io/badge/example%203%20no%20link-dfe6e9?style=plastic)
+[![alt-text](https://img.shields.io/badge/example%203%20with%20link-dfe6e9?style=plastic)](https://shields.io)
 
 - style=for-the-badge
 
-![alt-text](https://img.shields.io/badge/example%204%20no%20link-dfe6e9?&logocolor=fffff&style=for-the-badge)
-[![alt-text](https://img.shields.io/badge/example%204%20with%20link-dfe6e9?&logocolor=fffff&style=for-the-badge)](https://shields.io)
+![alt-text](https://img.shields.io/badge/example%204%20no%20link-dfe6e9?style=for-the-badge)
+[![alt-text](https://img.shields.io/badge/example%204%20with%20link-dfe6e9?style=for-the-badge)](https://shields.io)
 
 - style=social
 
-![alt-text](https://img.shields.io/badge/example%205%20no%20link-dfe6e9?&logocolor=fffff&style=social)
-[![alt-text](https://img.shields.io/badge/example%205%20with%20link-dfe6e9?&logocolor=fffff&style=social)](https://shields.io)
+![alt-text](https://img.shields.io/badge/example%205%20no%20link-dfe6e9?style=social)
+[![alt-text](https://img.shields.io/badge/example%205%20with%20link-dfe6e9?style=social)](https://shields.io)
 
 
-<h2 id="two-color-badge">Two Color Badge</h2>
+<h2 id="logo-badge">Logo Badge</h2>
+
+```markdown
+[![alt-text](https://img.shields.io/badge/any%20text-white?style=flat&logo=[logo name]&logoColor=#white)](https://ko-fi.com/jeffersonfed)
 
 
+[![Github](https://img.shields.io/badge/My%20Github-30363D?style=plastic&logo=GitHub&logoColor=#white)](https://github.com/jeffersonfed)
+[![Sponsor](https://img.shields.io/badge/Support%20Me-30363D?style=plastic&logo=GitHub-Sponsors&logoColor=#white)](https://ko-fi.com/jeffersonfed)
+```
 
+- For example github logo and github sponsor logo:
+
+```markdown
+[![Github](https://img.shields.io/badge/My%20Github-30363D?style=plastic&logo=GitHub&logoColor=#white)](https://github.com/jeffersonfed)
+[![Sponsor](https://img.shields.io/badge/Support%20Me-30363D?style=plastic&logo=GitHub-Sponsors&logoColor=#white)](https://ko-fi.com/jeffersonfed)
+```
+[![Github](https://img.shields.io/badge/My%20Github-30363D?style=plastic&logo=GitHub&logoColor=#white)](https://github.com/jeffersonfed)
+[![Sponsor](https://img.shields.io/badge/Support%20Me-30363D?style=plastic&logo=GitHub-Sponsors&logoColor=#white)](https://ko-fi.com/jeffersonfed)
 
 
 
