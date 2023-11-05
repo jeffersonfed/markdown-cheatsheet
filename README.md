@@ -530,8 +530,8 @@ Playing around with markdown and html elements Reference
   </summary>
   
   ```
-  Git               :: Desc
-  Github            :: Desc
+  Git                  :: Desc
+  Github               :: Desc
   ```
 
   </details>
