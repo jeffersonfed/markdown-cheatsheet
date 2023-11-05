@@ -703,6 +703,11 @@ Message and color only, separated by a dash `-`, for example:
 [![Github](https://img.shields.io/badge/My%20Github-30363D?style=plastic&logo=GitHub&logoColor=#white)](https://github.com/jeffersonfed)
 [![Sponsor](https://img.shields.io/badge/Support%20Me-30363D?style=plastic&logo=GitHub-Sponsors&logoColor=#white)](https://ko-fi.com/jeffersonfed)
 
+<h2 align = "center";>
+	
+![<hr />][hr-style]<br />
+</h2>
+
 
 
 <!-- 
