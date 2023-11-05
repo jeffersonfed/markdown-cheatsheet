@@ -568,12 +568,93 @@ Playing around with markdown and html elements Reference
 
 <h2 id="custom-badge">Custom Badge</h2>
 
+I'm using [shield.io badge](https://shields.io) and this is the example
+
 ```markdown
 [![Custom Badge](https://img.shields.io/badge/Custom%20Badge-dfe6e9?&logoColor=dfe6e9)](https://github.com/jeffersonfed)
 ```
-
-
 [![Custom Badge](https://img.shields.io/badge/Custom%20Badge-dfe6e9?&logoColor=dfe6e9)](https://github.com/jeffersonfed)
+
+How to create it?
+
+- First learn how to style it, so you can create your own
+
+```markdown
+![alt-text](https://img.shields.io/badge/[text]-[color])
+[![alt-text](https://img.shields.io/badge/[text]-[color])](file path/image path)
+
+```
+
+- For the Color Model, you can type simple text, such as Blue, White, Red, etc., but if you want a precise color, you can add the hex color.
+
+```markdown
+![alt-text](https://img.shields.io/badge/Red-red)
+![alt-text](https://img.shields.io/badge/Yellow-yellow)
+
+![alt-text](https://img.shields.io/badge/White-fff)
+![alt-text](https://img.shields.io/badge/Black-000)
+```
+![alt-text](https://img.shields.io/badge/Red-red)
+![alt-text](https://img.shields.io/badge/Yellow-yellow)
+
+![alt-text](https://img.shields.io/badge/White-fff)
+![alt-text](https://img.shields.io/badge/Black-000)
+
+<hr>
+
+- To add a space, type `%20` and add `?` first, then `&` for every style you want to insert. For more styles, just type `&` for each style you want to include, make sure you already put the `?`, for example: 
+
+```markdown
+- style=flat 
+![alt-text](https://img.shields.io/badge/example%201%20no%20link-dfe6e9?&logocolor=fffff&style=flat)
+[![alt-text](https://img.shields.io/badge/example%201%20with%20link-dfe6e9?&logocolor=fffff&style=flat)](https://shields.io)
+
+- style=flat-square
+![alt-text](https://img.shields.io/badge/example%202%20no%20link-dfe6e9?&logocolor=fffff&style=flat-square)
+[![alt-text](https://img.shields.io/badge/example%202%20with%20link-dfe6e9?&logocolor=fffff&style=flat-square)](https://shields.io)
+
+- style=plastic
+![alt-text](https://img.shields.io/badge/example%203%20no%20link-dfe6e9?&logocolor=fffff&style=plastic)
+[![alt-text](https://img.shields.io/badge/example%203%20with%20link-dfe6e9?&logocolor=fffff&style=plastic)](https://shields.io)
+
+- style=for-the-badge
+![alt-text](https://img.shields.io/badge/example%204%20no%20link-dfe6e9?&logocolor=fffff&style=for-the-badge)
+[![alt-text](https://img.shields.io/badge/example%204%20with%20link-dfe6e9?&logocolor=fffff&style=for-the-badge)](https://shields.io)
+
+- style=social
+![alt-text](https://img.shields.io/badge/example%205%20no%20link-dfe6e9?&logocolor=fffff&style=social)
+[![alt-text](https://img.shields.io/badge/example%205%20with%20link-dfe6e9?&logocolor=fffff&style=social)](https://shields.io)
+```
+- style=flat 
+
+![alt-text](https://img.shields.io/badge/example%201%20no%20link-dfe6e9?&logocolor=fffff&style=flat)
+[![alt-text](https://img.shields.io/badge/example%201%20with%20link-dfe6e9?&logocolor=fffff&style=flat)](https://shields.io)
+
+- style=flat-square
+
+![alt-text](https://img.shields.io/badge/example%202%20no%20link-dfe6e9?&logocolor=fffff&style=flat-square)
+[![alt-text](https://img.shields.io/badge/example%202%20with%20link-dfe6e9?&logocolor=fffff&style=flat-square)](https://shields.io)
+
+- style=plastic
+
+![alt-text](https://img.shields.io/badge/example%203%20no%20link-dfe6e9?&logocolor=fffff&style=plastic)
+[![alt-text](https://img.shields.io/badge/example%203%20with%20link-dfe6e9?&logocolor=fffff&style=plastic)](https://shields.io)
+
+- style=for-the-badge
+
+![alt-text](https://img.shields.io/badge/example%204%20no%20link-dfe6e9?&logocolor=fffff&style=for-the-badge)
+[![alt-text](https://img.shields.io/badge/example%204%20with%20link-dfe6e9?&logocolor=fffff&style=for-the-badge)](https://shields.io)
+
+- style=social
+
+![alt-text](https://img.shields.io/badge/example%205%20no%20link-dfe6e9?&logocolor=fffff&style=social)
+[![alt-text](https://img.shields.io/badge/example%205%20with%20link-dfe6e9?&logocolor=fffff&style=social)](https://shields.io)
+
+
+<h2 id="two-color-badge">Two Color Badge</h2>
+
+
+
 
 
 
