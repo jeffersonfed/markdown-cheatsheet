@@ -61,10 +61,10 @@
 ##### H5
 ###### H6
 
-<h2 align = "center";>
+<div align = "center";>
 	
 ![<hr />][hr-style]<br />
-</h2>
+</div>
 
 <h2>Text Style</h2>
 
@@ -83,10 +83,10 @@ Strikethrough → ~~Scratch this.~~<br>
 Subscript → <sub>Subscript</sub><br>
 Superscript → <sup>Superscript</sup>
 
-<h2 align = "center";>
+<div align = "center";>
 	
 ![<hr />][hr-style]<br />
-</h2>
+</div>
 
 <h2>Lists</h2>
 
@@ -112,10 +112,10 @@ Ordered List with Numbers
 1. Johan
 1. Jefferson
 
-<h2 align = "center";>
+<div align = "center";>
 	
 ![<hr />][hr-style]<br />
-</h2>
+</div>
 
 <h2>Nested Lists</h2>
 
@@ -139,10 +139,10 @@ If you want to add a nested list under list number, for example, `200. List`, yo
      - five [5 spaces]
        - seven [7 spaces]
 
-<h2 align = "center";>
+<div align = "center";>
 	
 ![<hr />][hr-style]<br />
-</h2>
+</div>
 
 <h2>Links</h2>
 
@@ -196,10 +196,10 @@ Some text to show that the reference links can follow later.
 [1]: http://slashdot.org
 [link text itself]: http://www.reddit.com
 
-<h2 align = "center";>
+<div align = "center";>
 	
 ![<hr />][hr-style]<br />
-</h2>
+</div>
 
 <h2 id="relative-links">Relative Links and Images</h2>
 You can define relative links and image paths in your rendered files to help readers navigate to other files in your repository.
@@ -216,10 +216,10 @@ EX:
 
 ![Example 2 Image](assets/pikachu.png)
 
-<h2 align = "center";>
+<div align = "center";>
 	
 ![<hr />][hr-style]<br />
-</h2>
+</div>
 
 <h2>Code and Syntax Highlighting</h2>
 Code blocks are part of the Markdown, but syntax highlighting isn't.
@@ -265,10 +265,10 @@ But let's throw in a <b>tag</b>.
 ```
 
 
-<h2 align = "center";>
+<div align = "center";>
 	
 ![<hr />][hr-style]<br />
-</h2>
+</div>
 
 <h2>Blockquotes</h2>
 
@@ -285,10 +285,10 @@ You can quote text with `>`
 > First Line
 > Second Line
 
-<h2 align = "center";>
+<div align = "center";>
 	
 ![<hr />][hr-style]<br />
-</h2>
+</div>
 
 <h2>Footnotes</h2>
 
@@ -320,10 +320,10 @@ You can also use words, to fit your writing style more closely[^note].
     This footnote also has been made with a different syntax using 4 spaces for new lines.
 
 
-<h2 align = "center";>
+<div align = "center";>
 	
 ![<hr />][hr-style]<br />
-</h2>
+</div>
 
 <h2>Tables</h2>
 
@@ -362,10 +362,10 @@ Markdown | Less | Pretty
 *Still* | `renders` | **nicely**
 1 | 2 | 3
 
-<h2 align = "center";>
+<div align = "center";>
 	
 ![<hr />][hr-style]<br />
-</h2>
+</div>
 
 <h2 id="inline-html">Inline HTML</h2>
 
@@ -386,10 +386,10 @@ Markdown | Less | Pretty
   <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
 
-<h2 align = "center";>
+<div align = "center";>
 	
 ![<hr />][hr-style]<br />
-</h2>
+</div>
 
 <h2 id="horizontal-rule">Horizontal Rule</h2>
 
@@ -422,10 +422,10 @@ ___
 
 Underscores
 
-<h2 align = "center";>
+<div align = "center";>
 	
 ![<hr />][hr-style]<br />
-</h2>
+</div>
 
 <h2 id="line-breaks">Line Breaks</h2>
 
@@ -445,10 +445,10 @@ This line is separated from the one above by two newlines, so it will be a *sepa
 This line is also a separate paragraph, but...
 This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
 
-<h2 align = "center";>
+<div align = "center";>
 	
 ![<hr />][hr-style]<br />
-</h2>
+</div>
 
 <h2 id="embed">Embed Videos</h2>
 They can't be added directly but you can add an image with a link to the video like this:
@@ -561,10 +561,10 @@ Playing around with markdown and html elements Reference
 
 </details>
 
-<h2 align = "center";>
+<div align = "center";>
 	
 ![<hr />](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=8)<br />
-</h2>
+</div>
 
 <h2 id="custom-badge">Custom Badge</h2>
 
@@ -703,10 +703,10 @@ Message and color only, separated by a dash `-`, for example:
 [![Github](https://img.shields.io/badge/My%20Github-30363D?style=plastic&logo=GitHub&logoColor=#white)](https://github.com/jeffersonfed)
 [![Sponsor](https://img.shields.io/badge/Support%20Me-30363D?style=plastic&logo=GitHub-Sponsors&logoColor=#white)](https://ko-fi.com/jeffersonfed)
 
-<h2 align = "center";>
+<div align = "center";>
 	
 ![<hr />][hr-style]<br />
-</h2>
+</div>
 
 
 
